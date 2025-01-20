@@ -1,0 +1,92 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: Arial, Helvetica, sans-serif;
+}
+body{
+   background-color: hsl(30, 38%, 92%);
+   width: 100%;
+   margin: auto;
+}
+.container{
+   position: relative;
+   width: 100%;
+   max-width: 670px;
+   max-height: 500px;
+   background-color: hsl(0, 0%, 100%);
+   margin: 100px auto;
+   overflow: hidden;
+   padding: 0;
+   border-radius: 10px;
+}
+.content{
+   display: flex;
+}
+.image img{
+   position: relative;
+   width: 330px;
+   height: 530px;
+   box-sizing: border-box;
+   border-radius: 10px 0 0 10px;
+   padding: 0;
+}
+.text-content{
+   display: block;
+   position: relative;
+   justify-content: center;
+   padding: 30px;
+}
+.text-content p{
+   color: hsl(228, 12%, 48%);
+   letter-spacing: 4px;
+   font-size: 14px;
+   font-weight: 600;
+   margin-bottom: 25px;
+}
+.text-content h1{
+   color: hsl(212, 21%, 14%);
+   font-size: 38px;
+   font-family: Georgia, Times, serif;
+   font-weight: bold;
+   margin-bottom: 20px;
+
+}
+.text-content h4{
+   color:hsla(228, 12%, 48%, 0.596);
+   font-weight: bold;
+   line-height: 28px;
+   font-size: 17px;
+   margin-bottom: 25px;
+}
+.footer{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-right: 2em;
+}
+.footer-text h1{
+   color: hsl(158, 36%, 37%);
+   font-size: 40px;
+}
+.footer-text h3{
+   color:hsla(228, 12%, 48%, 0.596);
+   font-size: 17px;
+   margin-bottom: 15px;
+   text-decoration: line-through;
+}
+.bouton button{
+   width: 260px;
+   height: 50px;
+   border: none;
+   border-radius: 10px;
+   background-color:hsl(158, 36%, 37%) ;
+   outline: none;
+   color: #fff;
+   font-size: 16px;
+   font-weight: 600;
+   margin-right: 12px;
+}
+button img{
+   margin-right: 12px;
+}
