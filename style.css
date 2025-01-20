@@ -13,7 +13,7 @@ body{
    position: relative;
    width: 100%;
    max-width: 670px;
-   max-height: 500px;
+   max-height: 520px;
    background-color: hsl(0, 0%, 100%);
    margin: 100px auto;
    overflow: hidden;
@@ -72,14 +72,14 @@ body{
 .footer-text h3{
    color:hsla(228, 12%, 48%, 0.596);
    font-size: 17px;
-   margin-bottom: 15px;
+   margin-bottom: 12px;
    text-decoration: line-through;
 }
 .bouton button{
    width: 260px;
-   height: 50px;
+   height: 40px;
    border: none;
-   border-radius: 10px;
+   border-radius: 7px;
    background-color:hsl(158, 36%, 37%) ;
    outline: none;
    color: #fff;
